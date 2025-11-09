@@ -1,0 +1,341 @@
+body{
+ 
+		width: 100%;
+	      
+	}
+	.main main{
+		width:100%;
+		height: calc(100%);
+		background:white;
+	}
+	#login-right{
+		position: absolute;
+		right:0;
+		width:40%;
+		height: calc(100%);
+		background:white;
+		display: flex;
+		align-items: center;
+	}
+#login-left{
+		position: absolute;
+		left:0;
+		width:60%;
+		height: calc(100%);
+		background:#59b6ec61;
+		display: flex;
+		 
+		background: url(bootstrap/img/loan-cover.jpg);
+	    background-repeat: no-repeat;
+	    background-size: cover;
+	}
+	#login-right .card{
+		margin: auto;
+		z-index: 1
+	}
+.log {
+    margin: auto;
+    font-size: 8rem;
+    background: white;
+    padding: .3em 0.5em;
+    border-radius: 50% 50%;
+    color: #000000b3;
+    z-index: 0;
+}
+div#login-right::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: calc(100%);
+    height: calc(100%);
+    background: #000000e0;
+}
+
+
+
+
+
+#header-div h2 {
+	text-align: center;
+	color: white;
+	font-weight: bold;
+}
+#home-btn{vertical-align: center;}
+
+#header-div{ background-color: #3452eb;}
+
+#form {
+    width:600px;
+	background-color: #a7a8a7;
+	border-radius: 10px;
+	padding-top: 10px;
+    padding-bottom: 10px;
+	color:black;
+}
+
+h3{
+	font-weight: bold;
+	text-align: center;
+	font-style: italic;
+}
+nav#sidebar {
+    height: calc(100%);
+    position: fixed;
+    z-index: 99;
+    left: 0;
+    width: 250px;
+    background: url(../../../assets/img/travel-cover.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#sidebar .collapse a{
+  text-indent: 50px;
+}
+#submit {
+	margin-left: 200px;
+}
+#update {
+	margin-left: 45px;
+}
+#update-div{
+	background-color: #FCC5CE;
+	border-radius:10px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	width: 800px;
+}
+#search-btn{
+	margin-left: 200px;
+}
+#detail{
+	/*border: 2px solid red;*/	
+	margin: 50px;
+}
+input{
+	border: none;
+	background: none;
+}
+#logout{
+	float: right;
+	width: 100px;
+	/*border: 1px solid red;*/
+}
+#purchase-div{
+	border: 1px solid red;
+	border-radius: 10px;
+	margin-top: 5px;
+	width: 600px;
+}
+#img {
+   width: 60px;
+   height: 60px;
+}
+#pro{
+	
+	
+	border:1px solid #333; 
+	background-color:#f1f1f1;
+	border-radius:5px; 
+	padding:16px;
+	
+	text-align: center;
+	
+	
+}
+.formed{width:3000px;
+	background-color:grey;
+	border-radius: 10px;
+	padding-top: 10px;
+    padding-bottom: 10px;
+	float: right;
+}
+.card .box-title {
+    font-weight: 600;
+    font-size: 20px;
+    padding: 5px 0
+}
+
+.card .weather-title.box-title {
+    padding: 0 15px;
+    line-height: 50px;
+    background: #fff;
+    border-radius: 5px 5px 0 0
+}
+.card .box-link {
+    font-weight: 600;
+    font-size: 16px;
+    padding: 5px 0
+}
+
+.card .box-link a{
+    color:#000;
+	text-decoration:underline;
+}
+.table-stats table {
+    font-family: open sans
+}
+
+.table-stats table th,
+.table-stats table td {
+    border: none;
+    border-bottom: 1px solid #e8e9ef;
+    color: #868e96;
+    font-size: 12px;
+    font-weight: 400;
+    padding: .75em 1.25em;
+    text-transform: uppercase
+}
+
+.table-stats table th img,
+.table-stats table td img {
+    margin-right: 10px;
+    max-width: 45px
+}
+
+.table-stats table th .name,
+.table-stats table td .name {
+    color: #343a40;
+    font-size: 14px;
+    text-transform: capitalize
+}
+
+.table-stats table td {
+    color: #343a40;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: capitalize;
+    vertical-align: middle
+}
+.card {
+    margin-bottom: 1.875em;
+    border-radius: 5px;
+    padding: 0;
+    border: 0 solid transparent;
+    -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, .08);
+    box-shadow: 0 0 20px rgba(0, 0, 0, .08)
+}
+.card .card-body {
+    float: left;
+    padding: 1.25em;
+    position: relative;
+    width: 100%
+}
+.card-body p button {
+    padding-top: 0;
+    padding-left: 0;
+    padding-bottom: 0
+}
+ .card-body {
+        padding: 15px
+    }
+	.orders {
+        overflow: hidden
+    }
+	.order-table .badge {
+    color: #fff;
+    padding: 10px;
+    text-transform: uppercase;
+    font-weight: 400
+}
+
+.order-table .badge-complete {
+    background: #00c292
+}
+
+.order-table .badge-pending {
+    background: #fb9678
+}
+
+.order-table .badge-delete {
+    background: #FF0000
+}
+
+.order-table .badge-edit {
+    background: #33A2FF
+}
+.badge a{
+	color:#fff;
+}
+.widget .row.p-4.height-93 {
+        padding: 1.125em 1.75em!important
+    }
+	 .media.p-4.height-100,
+    .widget .row.p-4.height-93 {
+        padding: 1rem!important
+    }
+	.legend table {
+    border-spacing: 5px
+}
+.inner-box {
+    position: relative;
+    border-radius: 10px;
+    background-color: #f1f2f7;
+    font-size: 14px;
+    color: #9aa0a4;
+    padding: 14px 20px;
+    display: table
+	
+}
+.tab1{
+margin-top:-500px;
+margin-right:58px;width:40%;
+ border:1px solid #333;
+ background-color:#f1f1f1; 
+ border-radius:px; padding:px;
+ position:center;
+
+
+
+
+}
+.sing {
+    width: 10px;
+	height: 20px;
+	}
+	
+	.sidebar {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 16px;
+}
+
+/* Style sidebar links */
+.sidebar a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #818181;
+  display: block;
+}
+
+/* Style links on mouse-over */
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+
+/* Style the main content */
+.main {
+  margin-left: 160px; /* Same as the width of the sidenav */
+  padding: 0px 10px;
+}
+
+/* Add media queries for small screens (when the height of the screen is less than 450px, add a smaller padding and font-size) */
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}
+T.sidebar a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+select
+{
+color: #818181;
+}
